@@ -16,7 +16,8 @@
         if (!menu || !menuBtn) return;
         menu.classList.toggle('hidden', !open);
         menuBtn.setAttribute('aria-expanded', String(open));
-        menuBtn.setAttribute('aria-label', open ? 'Cerrar menú' : 'Abrir menú');
+        var labelKey = open ? 'menu.close' : 'menu.open';
+        menuBtn.setAttribute('aria-label', window.i18n ? window.i18n.t(labelKey) : (open ? 'Cerrar menú' : 'Abrir menú'));
         var use = menuBtn.querySelector('use');
         if (use) use.setAttribute('href', open ? '#ic-times' : '#ic-bars');
     }
@@ -95,11 +96,12 @@
     // 6. Simulador de telemetría SOC (sin innerHTML: nodos construidos a mano)
     var simBtn = document.getElementById('simulate-incident-btn');
     var logsContainer = document.getElementById('terminal-logs');
+    // msgs son claves i18n; se resuelven al idioma activo en cada clic
     var socEvents = [
-        { tag: '[SIEM-ALERT]', color: 'text-fuchsia-400', msg: 'Anomalía detectada: PowerShell encoded command (T1059.001).' },
-        { tag: '[LANGGRAPH]', color: 'text-cyber-cyan', msg: 'Agente de Triaje correlacionando IoCs con MITRE ATT&CK...' },
-        { tag: '[OUROBOROS]', color: 'text-purple-300', msg: 'Payload sanitizado contra Prompt Injection indirecto.' },
-        { tag: '[SOAR-HITL]', color: 'text-cyber-accent', msg: 'Playbook listo: Host aislado preventivamente (Aprobado).' }
+        { tag: '[SIEM-ALERT]', color: 'text-fuchsia-400', msg: 'sim.e1' },
+        { tag: '[LANGGRAPH]', color: 'text-cyber-cyan', msg: 'sim.e2' },
+        { tag: '[OUROBOROS]', color: 'text-purple-300', msg: 'sim.e3' },
+        { tag: '[SOAR-HITL]', color: 'text-cyber-accent', msg: 'sim.e4' }
     ];
     var simIndex = 0;
 
@@ -113,7 +115,7 @@
             tag.className = evt.color + ' font-bold';
             tag.textContent = evt.tag;
             line.appendChild(tag);
-            line.appendChild(document.createTextNode(' ' + evt.msg));
+            line.appendChild(document.createTextNode(' ' + (window.i18n ? window.i18n.t(evt.msg) : evt.msg)));
             logsContainer.appendChild(line);
             if (!prefersReducedMotion) {
                 setTimeout(function () { line.classList.remove('animate-pulse'); }, 800);
@@ -131,8 +133,13 @@
 
     function emailCopied() {
         if (!copyEmailText) return;
-        copyEmailText.textContent = '¡Copiado!';
-        setTimeout(function () { copyEmailText.textContent = 'Copiar'; }, 2000);
+        if (window.i18n) {
+            copyEmailText.textContent = window.i18n.t('copy.copied');
+            setTimeout(function () { copyEmailText.textContent = window.i18n.t('copy.copy'); }, 2000);
+        } else {
+            copyEmailText.textContent = '¡Copiado!';
+            setTimeout(function () { copyEmailText.textContent = 'Copiar'; }, 2000);
+        }
     }
 
     if (copyEmailBtn) {
