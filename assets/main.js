@@ -164,7 +164,34 @@
         document.body.removeChild(tempInput);
     }
 
-    // 8. Canvas neural de fondo — se pausa con la pestaña oculta y se omite con reduced motion
+    // 8. Vista ampliada de la imagen de Cyberdiag
+    var cyberdiagImageBtn = document.getElementById('cyberdiag-image-btn');
+    var cyberdiagModal = document.getElementById('cyberdiag-modal');
+    var cyberdiagModalClose = document.getElementById('cyberdiag-modal-close');
+
+    function setCyberdiagModal(open) {
+        if (!cyberdiagModal) return;
+        cyberdiagModal.classList.toggle('hidden', !open);
+        cyberdiagModal.classList.toggle('flex', open);
+        document.body.classList.toggle('overflow-hidden', open);
+        if (open && cyberdiagModalClose) cyberdiagModalClose.focus();
+    }
+
+    if (cyberdiagImageBtn && cyberdiagModal && cyberdiagModalClose) {
+        cyberdiagImageBtn.addEventListener('click', function () { setCyberdiagModal(true); });
+        cyberdiagModalClose.addEventListener('click', function () { setCyberdiagModal(false); });
+        cyberdiagModal.addEventListener('click', function (event) {
+            if (event.target === cyberdiagModal) setCyberdiagModal(false);
+        });
+        document.addEventListener('keydown', function (event) {
+            if (event.key === 'Escape' && !cyberdiagModal.classList.contains('hidden')) {
+                setCyberdiagModal(false);
+                cyberdiagImageBtn.focus();
+            }
+        });
+    }
+
+    // 9. Canvas neural de fondo — se pausa con la pestaña oculta y se omite con reduced motion
     var canvas = document.getElementById('cyber-canvas');
 
     function startCanvas() {
