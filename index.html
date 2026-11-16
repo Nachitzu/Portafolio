@@ -62,6 +62,26 @@
       "awards": "1° Lugar CTF Cybersummit 2025"
     }
     </script>
+    <style>
+        .cert-badge-container {
+            width: 4rem;
+            height: 4rem;
+            flex-shrink: 0;
+        }
+
+        .cert-badge-image {
+            width: 100%;
+            height: 100%;
+            object-fit: contain;
+        }
+
+        @media (min-width: 640px) {
+            .cert-badge-container {
+                width: 5rem;
+                height: 5rem;
+            }
+        }
+    </style>
 </head>
 <body class="font-sans antialiased selection:bg-cyber-accent selection:text-white relative">
     <a class="skip-link" href="#hero" data-i18n="skip">Saltar al contenido</a>
@@ -846,12 +866,13 @@
                 <ul class="space-y-5">
                     <li class="bg-cyber-card/40 p-5 rounded-xl cyber-border flex items-center justify-between gap-4 group">
                         <div class="flex items-center gap-4">
-                            <div class="w-14 h-14 bg-cyber-darker rounded-xl border border-cyber-cyan/40 flex items-center justify-center transition-all shadow-[0_0_15px_rgba(34,211,238,0.25)]">
-                                <img src="/assets/ccna-introduction-to-networks.png" data-i18n-alt="cert.ccna.badgeAlt" alt="Badge digital CCNA: Introduction to Networks" width="240" height="240" loading="lazy" decoding="async" class="w-full h-full">
+                            <div class="cert-badge-container bg-cyber-darker rounded-xl border border-cyber-cyan/40 flex items-center justify-center transition-all shadow-[0_0_15px_rgba(34,211,238,0.25)]">
+                                <img src="/assets/ccna-introduction-to-networks.png" data-i18n-alt="cert.ccna.badgeAlt" alt="Badge digital CCNA: Introduction to Networks" width="240" height="240" loading="lazy" decoding="async" class="cert-badge-image">
                             </div>
                             <div>
                                 <h4 class="font-bold text-white text-lg group-hover:text-cyber-cyan transition-colors">CCNA: Introduction to Networks</h4>
                                 <p class="text-sm text-gray-400 font-mono">Cisco Networking Academy</p>
+                                <p class="text-xs text-gray-500 font-mono mt-1" data-i18n="cert.ccna.dates">Expedición: dic. de 2023</p>
                             </div>
                         </div>
                         <a href="https://www.credly.com/badges/53c271e2-035c-4b24-87e5-a1418f85adb1/public_url" target="_blank" rel="noopener noreferrer" data-i18n-aria-label="cert.ccna.credAria" aria-label="Ver credencial verificada de CCNA: Introduction to Networks en Credly" class="inline-flex items-center gap-1.5 font-mono text-xs text-cyan-300 bg-cyan-500/10 border border-cyan-500/30 hover:bg-cyan-500/25 hover:text-white px-2.5 py-1.5 rounded-full transition-all hover:shadow-[0_0_15px_rgba(34,211,238,0.4)] whitespace-nowrap">
@@ -861,12 +882,13 @@
 
                     <li class="bg-cyber-card/40 p-5 rounded-xl cyber-border flex items-center justify-between gap-4 group">
                         <div class="flex items-center gap-4">
-                            <div class="w-14 h-14 bg-cyber-darker rounded-xl border border-cyber-accent/40 flex items-center justify-center transition-all shadow-[0_0_15px_rgba(168,85,247,0.25)]">
-                                <img src="/assets/comptia-security-ce-certification.png" data-i18n-alt="cert.badgeAlt" alt="Badge digital CompTIA Security+ (SY0-701)" width="240" height="240" loading="lazy" decoding="async" class="w-full h-full">
+                            <div class="cert-badge-container bg-cyber-darker rounded-xl border border-cyber-accent/40 flex items-center justify-center transition-all shadow-[0_0_15px_rgba(168,85,247,0.25)]">
+                                <img src="/assets/comptia-security-ce-certification.png" data-i18n-alt="cert.badgeAlt" alt="Badge digital CompTIA Security+ (SY0-701)" width="240" height="240" loading="lazy" decoding="async" class="cert-badge-image">
                             </div>
                             <div>
                                 <h4 class="font-bold text-white text-lg group-hover:text-cyber-accent transition-colors">CompTIA Security+ (SY0-701)</h4>
                                 <p class="text-sm text-gray-400 font-mono">CompTIA</p>
+                                <p class="text-xs text-gray-500 font-mono mt-1" data-i18n="cert.security.dates">Expedición: sept. de 2026 · Vencimiento: sept. de 2029</p>
                             </div>
                         </div>
                         <a href="https://www.credly.com/badges/a6b2200e-6edb-4de9-accf-2992534046e5/public_url" target="_blank" rel="noopener noreferrer" data-i18n-aria-label="cert.credAria" aria-label="Ver credencial verificada de CompTIA Security+ en Credly" class="inline-flex items-center gap-1.5 font-mono text-xs text-purple-300 bg-purple-500/10 border border-purple-500/30 hover:bg-purple-500/25 hover:text-white px-2.5 py-1.5 rounded-full transition-all hover:shadow-[0_0_15px_rgba(168,85,247,0.4)] whitespace-nowrap">
@@ -876,12 +898,13 @@
 
                     <li class="bg-cyber-card/40 p-5 rounded-xl cyber-border flex items-center justify-between gap-4 group">
                         <div class="flex items-center gap-4">
-                            <div class="w-14 h-14 bg-cyber-darker rounded-xl border border-cyber-cyan/40 flex items-center justify-center text-cyber-cyan group-hover:bg-cyber-cyan group-hover:text-cyber-darker transition-all shadow-[0_0_15px_rgba(192,132,252,0.25)]">
+                            <div class="cert-badge-container bg-cyber-darker rounded-xl border border-cyber-cyan/40 flex items-center justify-center text-cyber-cyan group-hover:bg-cyber-cyan group-hover:text-cyber-darker transition-all shadow-[0_0_15px_rgba(192,132,252,0.25)]">
                                 <svg class="ic text-2xl" aria-hidden="true" focusable="false"><use href="#ic-fingerprint"/></svg>
                             </div>
                             <div>
                                 <h4 class="font-bold text-white text-lg group-hover:text-cyber-cyan transition-colors" data-i18n="cert.forensics.title">Peritaje e Informática Forense</h4>
                                 <p class="text-sm text-gray-400 font-mono">Hacker Mentor</p>
+                                <p class="text-xs text-gray-500 font-mono mt-1" data-i18n="cert.forensics.dates">Expedición: abr. de 2026</p>
                             </div>
                         </div>
                         <a href="https://credsverse.com/credentials/d71ba2ad-d1c3-4720-aa2e-5e5b0d6bada9?preview=1" target="_blank" rel="noopener noreferrer" data-i18n-aria-label="cert.credAria" aria-label="Ver credencial verificada de CompTIA Security+ en Credly" class="inline-flex items-center gap-1.5 font-mono text-xs text-purple-300 bg-purple-500/10 border border-purple-500/30 hover:bg-purple-500/25 hover:text-white px-2.5 py-1.5 rounded-full transition-all hover:shadow-[0_0_15px_rgba(168,85,247,0.4)] whitespace-nowrap">
@@ -891,12 +914,13 @@
 
                     <li class="bg-cyber-card/40 p-5 rounded-xl cyber-border flex items-center justify-between gap-4 group">
                         <div class="flex items-center gap-4">
-                            <div class="w-14 h-14 bg-cyber-darker rounded-xl border border-cyber-accent/40 flex items-center justify-center text-cyber-accent group-hover:bg-cyber-accent group-hover:text-white transition-all shadow-[0_0_15px_rgba(168,85,247,0.25)]">
+                            <div class="cert-badge-container bg-cyber-darker rounded-xl border border-cyber-accent/40 flex items-center justify-center text-cyber-accent group-hover:bg-cyber-accent group-hover:text-white transition-all shadow-[0_0_15px_rgba(168,85,247,0.25)]">
                                 <svg class="ic text-2xl" aria-hidden="true" focusable="false"><use href="#ic-user-secret"/></svg>
                             </div>
                             <div>
                                 <h4 class="font-bold text-white text-lg group-hover:text-cyber-accent transition-colors" data-i18n="cert.ethical.title">Ciberseguridad &amp; Ethical Hacking</h4>
                                 <p class="text-sm text-gray-400 font-mono">Hacker Mentor</p>
+                                <p class="text-xs text-gray-500 font-mono mt-1" data-i18n="cert.ethical.dates">Expedición: oct. de 2025</p>
                             </div>
                         </div>
                         <a href="https://credsverse.com/credentials/526a57de-dd17-4168-a352-a36f79c739b1?preview=1" target="_blank" rel="noopener noreferrer" data-i18n-aria-label="cert.credAria" aria-label="Ver credencial verificada de CompTIA Security+ en Credly" class="inline-flex items-center gap-1.5 font-mono text-xs text-purple-300 bg-purple-500/10 border border-purple-500/30 hover:bg-purple-500/25 hover:text-white px-2.5 py-1.5 rounded-full transition-all hover:shadow-[0_0_15px_rgba(168,85,247,0.4)] whitespace-nowrap">

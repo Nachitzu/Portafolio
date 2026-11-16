@@ -80,8 +80,12 @@
             'cert.badgeAlt': 'Badge digital CompTIA Security+ (SY0-701)',
             'cert.ccna.credAria': 'Ver credencial verificada de CCNA: Introduction to Networks en Credly',
             'cert.ccna.badgeAlt': 'Badge digital CCNA: Introduction to Networks',
+            'cert.ccna.dates': 'Expedición: dic. de 2023',
+            'cert.security.dates': 'Expedición: sept. de 2026 · Vencimiento: sept. de 2029',
             'cert.forensics.title': 'Peritaje e Informática Forense',
+            'cert.forensics.dates': 'Expedición: abr. de 2026',
             'cert.ethical.title': 'Ciberseguridad &amp; Ethical Hacking',
+            'cert.ethical.dates': 'Expedición: oct. de 2025',
             'oss.title': 'Arquitectura Hexagonal &amp; Open Source',
             'oss.sub': 'Licencias MIT / Apache 2.0 · Clean Code First',
 
@@ -99,7 +103,7 @@
             'sim.e3': 'Payload sanitizado contra Prompt Injection indirecto.',
             'sim.e4': 'Playbook listo: Host aislado preventivamente (Aprobado).',
 
-            'meta.description': 'Portafolio de Ignacio Núñez: Ingeniero Civil Informático (PUCV) e Ingeniero de Seguridad en IA. Agentes autónomos para SOC (Blue Team), red teaming de LLMs, GRC, arquitectura hexagonal y código limpio.'
+            'meta.description': 'Portafolio de Ignacio Núñez: Ingeniero Informático (PUCV) e Ingeniero de Seguridad en IA. Agentes autónomos para SOC (Blue Team), red teaming de LLMs, GRC, arquitectura hexagonal y código limpio.'
         },
 
         en: {
@@ -178,8 +182,12 @@
             'cert.badgeAlt': 'CompTIA Security+ (SY0-701) digital badge',
             'cert.ccna.credAria': 'View verified CCNA: Introduction to Networks credential on Credly',
             'cert.ccna.badgeAlt': 'CCNA: Introduction to Networks digital badge',
+            'cert.ccna.dates': 'Issued: Dec. 2023',
+            'cert.security.dates': 'Issued: Sep. 2026 · Expires: Sep. 2029',
             'cert.forensics.title': 'Expert Witnessing &amp; Digital Forensics',
+            'cert.forensics.dates': 'Issued: Apr. 2026',
             'cert.ethical.title': 'Cybersecurity &amp; Ethical Hacking',
+            'cert.ethical.dates': 'Issued: Oct. 2025',
             'oss.title': 'Hexagonal Architecture &amp; Open Source',
             'oss.sub': 'MIT / Apache 2.0 Licenses · Clean Code First',
 
