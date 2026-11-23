@@ -16,7 +16,7 @@
             'menu.close': 'Cerrar menú',
 
             'hero.greet': '&gt; Hola, soy',
-            'hero.role': 'Ingeniero Civil Informático | Ingeniero de Seguridad en IA <br class="hidden md:block">| Construyendo Herramientas Agénticas para Blue Team',
+            'hero.role': 'Ingeniero Informático | Ingeniero de Seguridad en IA <br class="hidden md:block">| Construyendo Herramientas Agénticas para Blue Team',
             'hero.bio': 'Construyo agentes de IA para operaciones de seguridad, automatizando el trabajo aburrido del SOC para que los humanos se enfoquen en amenazas reales. Apasionado por el software seguro, la arquitectura hexagonal y la intersección entre los LLMs y el Blue Team.',
             'hero.metric1': '1° Lugar',
             'hero.credlyAria': 'Ver credencial CompTIA Security+ (SY0-701) en Credly',
@@ -33,7 +33,7 @@
 
             'about.title': 'Sobre Mí',
             'about.focus': 'Enfoque Principal',
-            'about.bio1': 'Graduado de <strong class="text-white">Ingeniería Civil Informática</strong> de la Pontificia Universidad Católica de Valparaíso (PUCV).',
+            'about.bio1': 'Graduado de <strong class="text-white">Ingeniería Informática</strong> de la Pontificia Universidad Católica de Valparaíso (PUCV).',
             'about.bio2': 'Ganador del <strong class="text-white">Primer Lugar</strong> en la competencia CTF Cybersummit 2025.',
             'about.bio3': 'Fiel defensor del código limpio (<strong class="text-white">Arquitectura Hexagonal</strong>) y del desarrollo open-source bajo licencias permisivas (MIT y Apache 2.0).',
             'about.bio4': 'En mi tiempo libre, disfruto explorando la mixología, entrenando kickboxing y jugando <strong class="text-cyber-cyan">Valheim</strong>.',
