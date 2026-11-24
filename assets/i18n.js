@@ -17,7 +17,7 @@
 
             'hero.role': 'Ingeniero Informático · Seguridad en IA',
             'hero.lead': 'Construyo la capa defensiva que vigila, triagea y responde: agentes de IA para operaciones de seguridad.',
-            'hero.bio': 'Ingeniería Informática en la PUCV. Trabajo en la intersección entre LLMs y Blue Team —seguridad ofensiva de modelos, SOC agéntico con Human-in-the-Loop y plataformas GRC— con arquitectura hexagonal y código auditable.',
+            'hero.bio': 'Ingeniería Informática en la Pontificia Universidad Católica de Valparaíso. Trabajo en la intersección entre LLMs y Blue Team —seguridad ofensiva de modelos, SOC agéntico con Human-in-the-Loop y plataformas GRC— con arquitectura hexagonal y código auditable.',
             'hero.ev1k': 'Reconocimiento',
             'hero.ev1v': '1.er lugar · CTF Cybersummit 2025',
             'hero.ev2k': 'Certificación',
@@ -44,13 +44,13 @@
             'term.log5': '<b class="log-tag">[ATT&amp;CK]</b> 14 IoCs mapeados a T1059 · T1071 · T1566 → cola SOAR.',
 
             'about.title': 'Perfil',
-            'about.portraitAlt': 'Retrato de Ignacio Núñez con traje formal frente al sello de la PUCV',
-            'about.caption': 'Ignacio Núñez · Ingeniero Informático PUCV',
+            'about.portraitAlt': 'Retrato de Ignacio Núñez con traje formal frente al sello de la Pontificia Universidad Católica de Valparaíso',
+            'about.caption': 'Ignacio Núñez · Ingeniero Informático, Pontificia Universidad Católica de Valparaíso',
             'about.statement': 'Ingeniería informática aplicada a que los sistemas se defiendan solos.',
-            'about.p1': 'Me formé como Ingeniero Informático en la PUCV y hoy trabajo donde la seguridad se encuentra con la IA: agentes que leen telemetría, clasifican amenazas y dejan la decisión final a una persona.',
+            'about.p1': 'Me formé como Ingeniero Informático en la Pontificia Universidad Católica de Valparaíso y hoy trabajo donde la seguridad se encuentra con la IA: agentes que leen telemetría, clasifican amenazas y dejan la decisión final a una persona.',
             'about.p2': 'Defiendo el código limpio, la arquitectura hexagonal y el open source con licencias permisivas. En mi tiempo libre: mixología, boxing y Valheim.',
             'about.k1': 'Formación',
-            'about.v1': 'Ingeniería Informática · PUCV',
+            'about.v1': 'Ingeniería Informática · Pontificia Universidad Católica de Valparaíso',
             'about.k2': 'Enfoque',
             'about.v2': 'Seguridad en IA · Blue Team · GRC',
             'about.k3': 'Reconocimiento',
@@ -145,7 +145,7 @@
             'sim.e4': 'Playbook listo: host aislado preventivamente (aprobado).',
 
             'meta.title': 'Ignacio Núñez | AI Security Engineer',
-            'meta.description': 'Portafolio de Ignacio Núñez: Ingeniero Informático (PUCV) e Ingeniero de Seguridad en IA. Agentes autónomos para SOC (Blue Team), red teaming de LLMs, GRC, arquitectura hexagonal y código limpio.'
+            'meta.description': 'Portafolio de Ignacio Núñez: Ingeniero Informático por la Pontificia Universidad Católica de Valparaíso e Ingeniero de Seguridad en IA. Agentes autónomos para SOC (Blue Team), red teaming de LLMs, GRC, arquitectura hexagonal y código limpio.'
         },
 
         en: {
@@ -161,7 +161,7 @@
 
             'hero.role': 'Computer Engineer · AI Security Engineer',
             'hero.lead': 'I build the defensive layer that watches, triages and responds: AI agents for security operations.',
-            'hero.bio': 'Computer Engineering at PUCV. I work where LLMs meet the Blue Team — model red teaming, agentic SOC with Human-in-the-Loop and GRC platforms — with hexagonal architecture and auditable code.',
+            'hero.bio': 'Computer Engineering at Pontificia Universidad Católica de Valparaíso. I work where LLMs meet the Blue Team — model red teaming, agentic SOC with Human-in-the-Loop and GRC platforms — with hexagonal architecture and auditable code.',
             'hero.ev1k': 'Recognition',
             'hero.ev1v': '1st place · CTF Cybersummit 2025',
             'hero.ev2k': 'Certification',
@@ -188,13 +188,13 @@
             'term.log5': '<b class="log-tag">[ATT&amp;CK]</b> 14 IoCs mapped to T1059 · T1071 · T1566 → SOAR queue.',
 
             'about.title': 'Profile',
-            'about.portraitAlt': 'Portrait of Ignacio Núñez in a formal suit in front of the PUCV seal',
-            'about.caption': 'Ignacio Núñez · Computer Engineer, PUCV',
+            'about.portraitAlt': 'Portrait of Ignacio Núñez in a formal suit in front of the Pontificia Universidad Católica de Valparaíso seal',
+            'about.caption': 'Ignacio Núñez · Computer Engineer, Pontificia Universidad Católica de Valparaíso',
             'about.statement': 'Computer engineering applied to making systems defend themselves.',
-            'about.p1': 'I trained as a Computer Engineer at PUCV and now work where security meets AI: agents that read telemetry, classify threats and leave the final call to a human.',
+            'about.p1': 'I trained as a Computer Engineer at Pontificia Universidad Católica de Valparaíso and now work where security meets AI: agents that read telemetry, classify threats and leave the final call to a human.',
             'about.p2': 'I stand for clean code, hexagonal architecture and permissive open source. Off the clock: mixology, boxing and Valheim.',
             'about.k1': 'Education',
-            'about.v1': 'Computer Engineering · PUCV',
+            'about.v1': 'Computer Engineering · Pontificia Universidad Católica de Valparaíso',
             'about.k2': 'Focus',
             'about.v2': 'AI security · Blue Team · GRC',
             'about.k3': 'Recognition',
@@ -289,7 +289,7 @@
             'sim.e4': 'Playbook ready: host preventively isolated (approved).',
 
             'meta.title': 'Ignacio Núñez | AI Security Engineer',
-            'meta.description': 'Ignacio Núñez portfolio: Computer Engineer (PUCV) and AI Security Engineer. Autonomous agents for the SOC (Blue Team), LLM red teaming, GRC, hexagonal architecture and clean code.'
+            'meta.description': 'Ignacio Núñez portfolio: Computer Engineer, Pontificia Universidad Católica de Valparaíso, and AI Security Engineer. Autonomous agents for the SOC (Blue Team), LLM red teaming, GRC, hexagonal architecture and clean code.'
         }
     };
 
